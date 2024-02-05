@@ -1,5 +1,14 @@
 ###
-# @format
+from typing import Any, Dict, List, Union
+
+'''Module-level docstring
+
+This module represents the control_centre package
+
+__version__ = '0.0.1'  # Module-level variable representing the package version
+'''
+
+__version__ = '0.0.1'
 # -----
 # Project: @eventiva/eventiva
 # File: __init__.py
@@ -16,6 +25,7 @@
 # Code of Conduct: This project abides by the Contributor Covenant, v2.0
 # Please interact in ways that contribute to an open, welcoming, diverse,
 # inclusive, and healthy community. Our Code of Conduct can be found at
+from typing import Any
 # https://github.com/eventiva/eventiva/blob/develop/CODE_OF_CONDUCT.md
 # -----
 # Copyright (c) 2024 Resnovas - All Rights Reserved
@@ -28,6 +38,8 @@
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+def my_function(param1: int, param2: str) -> float: # Example function with type annotations
+    return 3.14
 # GNU General Public License v2.0 or later for more details.
 # You should have received a copy of the GNU General Public License v2.0 or later
 # along with this program. If not, please write to: jonathan@resnovas.com,
