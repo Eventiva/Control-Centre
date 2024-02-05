@@ -1,4 +1,9 @@
-###
+'''Module-level docstring
+
+This module represents the control_centre/templates package
+
+__version__ = '0.0.1'  # Module-level variable representing the package version
+'''
 # @format
 # -----
 # Project: @eventiva/eventiva
@@ -23,7 +28,16 @@
 # -----
 # This program has been provided under confidence of the copyright holder and
 # is licensed for copying, distribution and modification under the terms
-# of the GNU General Public License v2.0 or later (GPL-2.0-or-later) published as the License,
+'''Module-level docstring
+
+This module represents the control_centre/templates package
+
+__version__ = '0.0.1'  # Module-level variable representing the package version
+'''
+from typing import Any, Dict, List, Union
+import os
+import sys
+from datetime import datetime
 # or (at your option) any later version of this license.
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
