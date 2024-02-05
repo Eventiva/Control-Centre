@@ -1,4 +1,4 @@
-###
+""" Add type annotations, declarations, and docstrings to the code in the control_centre/hooks.py file."""
 # @format
 # -----
 # Project: @eventiva/eventiva
@@ -57,6 +57,8 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
+
+from typing import Any, Dict, List, Union
 # app_include_css = "/assets/control_centre/css/control_centre.css"
 # app_include_js = "/assets/control_centre/js/control_centre.js"
 
@@ -72,6 +74,8 @@ app_license = "mit"
 # webform_include_css = {"doctype": "public/css/doctype.css"} 
 
 # include js in page
+
+from typing import Any, Dict, List, Union
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
