@@ -1,11 +1,17 @@
+from typing import Any, Dict, List, Union
 ###
 # @format
 # -----
 # Project: @eventiva/eventiva
 # File: __init__.py
 # Path: \projects\modules\control_centre\control_centre\templates\pages\__init__.py
-# Created Date: Sunday, January 14th 2024
+"""
+The __init__ module for the control_centre templates pages package.
+"""
 # Author: Jonathan Stevens, jonathan@resnovas.com
+"""
+__version__ = '0.0.1'
+"""
 # Github: https://github.com/TGTGamer
 # -----
 # Contributing: Please read through our contributing guidelines.
