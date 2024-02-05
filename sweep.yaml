@@ -1,4 +1,6 @@
-###
+'''
+# Add type annotations, declarations, and docstrings to the code in the sweep.yaml file.
+'''
 # @format
 # -----
 # Project: @eventiva/eventiva
@@ -71,6 +73,10 @@ description: |
   "
 draft: False
 blocked_dirs:
+  from typing import Any, Dict, List
+'''
+Complete with type annotations, declarations, and docstrings.
+'''
   [".github", ".trunk", ".devcontainer", ".vscode", "node_modules", "scripts"]
 docs: [
     # bit.dev is used for component first development,
@@ -86,7 +92,11 @@ docs: [
     [
       "https://discord.js.org/#/docs/main/stable/general/welcome",
       "We use discord.js to develop our discord bot",
-    ],
+    [
+      "from typing import Any, Dict, List",
+      '''
+      Complete with type annotations, declarations, and docstrings.
+      ''',
     # Discord APIs are used for our discord bots
     [
       "https://discord.com/developers/docs/intro",
@@ -96,7 +106,11 @@ docs: [
     [
       "https://expressjs.com/en/starter/installing.html",
       "We use express to develop our backend API",
-    ],
+    [
+      "from typing import Any, Dict, List",
+      '''
+      Complete with type annotations, declarations, and docstrings.
+      ''',
     #  Frappe Framework is used as the underlying framework
     [
       "https://frappeframework.com/docs/user/en",
@@ -119,6 +133,9 @@ docs: [
     #  Compass is used to document our architecture
     [
       "https://go.atlassian.com/compass-yml-format",
+      '''
+      Complete with type annotations, declarations, and docstrings.
+      ''',
       "We use compass to document our architecture",
     ],
     # Frappe Framework is used for our unit testing
@@ -131,7 +148,10 @@ docs: [
       "https://frappeframework.com/docs/user/en/ui-testing",
       "We use cypress for unit testing frappe modules",
     ],
-  ]
+  ],
+  '''
+  Complete with type annotations, declarations, and docstrings.
+  ''',
 rules:
   - "Leftover TODO, BUG, FIXME & ISSUE in the code should be handled."
   - "All new business logic should have corresponding unit tests."
