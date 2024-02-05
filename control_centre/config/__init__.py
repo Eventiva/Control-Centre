@@ -1,5 +1,7 @@
-###
-# @format
+"""Type annotations, declarations, and docstrings for the control_centre/config/__init__.py file."""
+
+from typing import Any, Dict, List, Union###
+from typing import Any, Dict, List, Union
 # -----
 # Project: @eventiva/eventiva
 # File: __init__.py
@@ -15,7 +17,7 @@
 # -----
 # Code of Conduct: This project abides by the Contributor Covenant, v2.0
 # Please interact in ways that contribute to an open, welcoming, diverse,
-# inclusive, and healthy community. Our Code of Conduct can be found at
+from typing import Any# inclusive, and healthy community. Our Code of Conduct can be found at
 # https://github.com/eventiva/eventiva/blob/develop/CODE_OF_CONDUCT.md
 # -----
 # Copyright (c) 2024 Resnovas - All Rights Reserved
