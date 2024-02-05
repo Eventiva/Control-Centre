@@ -46,6 +46,13 @@
 ###
 
 
+'''Module-level docstring
+
+This module represents the control_centre package
+
+__version__ = '0.0.1'  # Module-level variable representing the package version
+'''
+
 __version__ = '0.0.1'
 
  
